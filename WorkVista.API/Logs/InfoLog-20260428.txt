@@ -1,0 +1,211 @@
+2026-04-28 12:54:29.160 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 12:54:29.581 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 12:54:29.582 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 12:54:29.753 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 12:54:29.755 +05:30 [INF] Hosting environment: Development
+2026-04-28 12:54:29.755 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 12:54:30.242 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 12:54:30.653 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 12:54:30.654 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 12:54:30.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 14.1481ms
+2026-04-28 12:54:30.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 441.0927ms
+2026-04-28 12:54:30.825 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.8408ms
+2026-04-28 12:54:32.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 12:54:32.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.6673ms
+2026-04-28 12:55:38.378 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 12:55:38.618 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 12:55:38.618 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 12:55:38.691 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 12:55:38.691 +05:30 [INF] Hosting environment: Development
+2026-04-28 12:55:38.691 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 12:55:39.308 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 12:55:39.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 397.0777ms
+2026-04-28 12:55:39.686 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 12:55:39.696 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 12:55:39.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 15.3292ms
+2026-04-28 12:55:39.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1095ms
+2026-04-28 12:55:43.620 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 12:55:43.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.7478ms
+2026-04-28 12:55:59.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 12:55:59.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.3037ms
+2026-04-28 12:56:01.591 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/favicon.ico - null null
+2026-04-28 12:56:01.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/favicon.ico - 404 0 null 86.1859ms
+2026-04-28 12:56:01.681 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/favicon.ico, Response status code: 404
+2026-04-28 14:08:48.393 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 14:08:48.614 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 14:08:48.614 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 14:08:48.688 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:08:48.689 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:08:48.689 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 14:08:49.010 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 14:08:49.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 327.5395ms
+2026-04-28 14:08:49.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 14:08:49.338 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 14:08:49.341 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 9.5659ms
+2026-04-28 14:08:49.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2286ms
+2026-04-28 14:08:50.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 14:08:50.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.6229ms
+2026-04-28 16:45:07.218 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 16:45:07.806 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 16:45:07.807 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 16:45:08.044 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 16:45:08.045 +05:30 [INF] Hosting environment: Development
+2026-04-28 16:45:08.045 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 16:45:08.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 16:45:09.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 16:45:09.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 16:45:09.374 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 668.8699ms
+2026-04-28 16:45:09.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 11.486ms
+2026-04-28 16:45:09.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.9427ms
+2026-04-28 16:45:11.053 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 16:45:11.266 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.7223ms
+2026-04-28 16:53:11.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 16:53:11.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 26.3384ms
+2026-04-28 16:53:11.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 16:53:11.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 16:53:11.855 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 1.9803ms
+2026-04-28 16:53:11.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.708ms
+2026-04-28 16:53:13.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 16:53:13.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - null null
+2026-04-28 16:53:13.171 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-28 16:53:13.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - 200 628 image/png 14.6003ms
+2026-04-28 16:53:13.228 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.3526ms
+2026-04-28 16:53:33.870 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 16:53:34.216 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 16:53:34.217 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 16:53:34.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 16:53:34.331 +05:30 [INF] Hosting environment: Development
+2026-04-28 16:53:34.331 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 16:53:34.720 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 16:53:35.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 328.6875ms
+2026-04-28 16:53:35.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 16:53:35.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 16:53:35.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.704ms
+2026-04-28 16:53:35.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.6101ms
+2026-04-28 16:53:36.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 16:53:36.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 162.9837ms
+2026-04-28 17:07:20.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterEmployeeDEX/ImportEmployeeFromDex - null null
+2026-04-28 17:07:20.379 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API)'
+2026-04-28 17:07:20.428 +05:30 [INF] Route matched with {action = "ImportEmployeeDataFromDex", controller = "MasterEmployeeDEX"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope ImportEmployeeDataFromDex() on controller WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController (WorkVista.API).
+2026-04-28 17:07:20.441 +05:30 [INF] Executed action WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API) in 8.4745ms
+2026-04-28 17:07:20.442 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API)'
+2026-04-28 17:07:20.447 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeDEX.IMasterEmployeeDEXService' while attempting to activate 'WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-28 17:07:20.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterEmployeeDEX/ImportEmployeeFromDex - 500 null text/plain; charset=utf-8 256.5024ms
+2026-04-28 17:09:00.205 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 17:09:00.526 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 17:09:00.527 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 17:09:00.700 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 17:09:00.701 +05:30 [INF] Hosting environment: Development
+2026-04-28 17:09:00.701 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 17:09:01.195 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:09:01.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 348.1345ms
+2026-04-28 17:09:01.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:09:01.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:09:01.550 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 15.9507ms
+2026-04-28 17:09:01.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.1105ms
+2026-04-28 17:09:02.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:09:03.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.0798ms
+2026-04-28 17:09:17.832 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterEmployeeDEX/ImportEmployeeFromDex - null null
+2026-04-28 17:09:17.912 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API)'
+2026-04-28 17:09:17.932 +05:30 [INF] Route matched with {action = "ImportEmployeeDataFromDex", controller = "MasterEmployeeDEX"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope ImportEmployeeDataFromDex() on controller WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController (WorkVista.API).
+2026-04-28 17:09:18.226 +05:30 [INF] Executing ObjectResult, writing value of type 'null'.
+2026-04-28 17:09:18.232 +05:30 [INF] Executed action WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API) in 295.4669ms
+2026-04-28 17:09:18.232 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterEmployeeDEX.MasterEmployeeDEXController.ImportEmployeeDataFromDex (WorkVista.API)'
+2026-04-28 17:09:18.233 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterEmployeeDEX/ImportEmployeeFromDex - 204 null null 401.502ms
+2026-04-28 17:10:52.136 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 17:10:52.365 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 17:10:52.365 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 17:10:52.455 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 17:10:52.456 +05:30 [INF] Hosting environment: Development
+2026-04-28 17:10:52.456 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 17:10:52.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:10:53.202 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 371.9911ms
+2026-04-28 17:10:53.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:10:53.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:10:53.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.6652ms
+2026-04-28 17:10:53.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.2567ms
+2026-04-28 17:10:54.595 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:10:54.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 196.2861ms
+2026-04-28 17:11:43.359 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 17:11:43.848 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 17:11:43.848 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 17:11:43.952 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 17:11:43.952 +05:30 [INF] Hosting environment: Development
+2026-04-28 17:11:43.952 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 17:11:44.262 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:11:44.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 360.441ms
+2026-04-28 17:11:44.613 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:11:44.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:11:44.620 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.9119ms
+2026-04-28 17:11:44.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.5672ms
+2026-04-28 17:11:45.973 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:11:46.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.6181ms
+2026-04-28 17:36:41.241 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 17:36:41.469 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 17:36:41.470 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 17:36:41.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 17:36:41.548 +05:30 [INF] Hosting environment: Development
+2026-04-28 17:36:41.548 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista
+2026-04-28 17:36:42.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger - null null
+2026-04-28 17:36:42.252 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger - 301 null null 234.9483ms
+2026-04-28 17:36:42.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:36:42.383 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 124.0143ms
+2026-04-28 17:36:42.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - null null
+2026-04-28 17:36:42.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - null null
+2026-04-28 17:36:42.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-28 17:36:42.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:36:42.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:36:42.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 13.231ms
+2026-04-28 17:36:42.449 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-04-28 17:36:42.449 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-04-28 17:36:42.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - 200 152034 text/css 66.9491ms
+2026-04-28 17:36:42.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 66.5161ms
+2026-04-28 17:36:42.490 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-28 17:36:42.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 104.7507ms
+2026-04-28 17:36:42.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.83ms
+2026-04-28 17:36:44.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:36:44.113 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - null null
+2026-04-28 17:36:44.113 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-28 17:36:44.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - 200 628 image/png 1.6823ms
+2026-04-28 17:36:44.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.7765ms
+2026-04-28 17:38:01.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:38:01.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 47.142ms
+2026-04-28 17:38:01.145 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:38:01.146 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:38:01.148 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 1.9578ms
+2026-04-28 17:38:01.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.376ms
+2026-04-28 17:38:02.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:38:02.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.8648ms
+2026-04-28 17:47:35.744 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-28 17:47:35.962 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-28 17:47:35.962 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-28 17:47:36.046 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 17:47:36.047 +05:30 [INF] Hosting environment: Development
+2026-04-28 17:47:36.047 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-28 17:47:36.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-28 17:47:37.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 317.6858ms
+2026-04-28 17:47:37.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-28 17:47:37.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-28 17:47:37.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.5503ms
+2026-04-28 17:47:37.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.408ms
+2026-04-28 17:47:38.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-28 17:47:39.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.6498ms

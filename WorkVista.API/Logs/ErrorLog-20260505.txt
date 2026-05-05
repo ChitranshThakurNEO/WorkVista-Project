@@ -1,0 +1,53 @@
+2026-05-05 11:38:22.327 +05:30 [ERR] Could not find stored procedure 'sp_MasterAlert_Upsert'.
+2026-05-05 11:38:44.210 +05:30 [ERR] AddOrUpdateMasterAlert
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 76
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:40:41.404 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:42:12.492 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:44:21.822 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:49:36.876 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:51:05.246 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:51:46.370 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 12:28:39.795 +05:30 [ERR] AddOrUpdateMasterAlert
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 91
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85

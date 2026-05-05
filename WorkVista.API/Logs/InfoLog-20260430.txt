@@ -1,0 +1,131 @@
+2026-04-30 11:10:26.568 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-30 11:10:26.845 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-30 11:10:26.845 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-30 11:10:26.942 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-30 11:10:26.942 +05:30 [INF] Hosting environment: Development
+2026-04-30 11:10:26.942 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-30 11:10:27.982 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-30 11:10:28.262 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 291.3328ms
+2026-04-30 11:10:28.271 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-30 11:10:28.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-30 11:10:28.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 12.7342ms
+2026-04-30 11:10:28.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.3479ms
+2026-04-30 11:10:29.702 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-30 11:10:29.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 90.2172ms
+2026-04-30 11:13:02.347 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/DeleteMasterDictionaryDetails - application/json 75
+2026-04-30 11:13:02.367 +05:30 [INF] CORS policy execution failed.
+2026-04-30 11:13:02.367 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 11:13:02.518 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API)'
+2026-04-30 11:13:02.555 +05:30 [INF] Route matched with {action = "Delete", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope Delete(WorkVista.API.ModelLayer.Common.DeleteRequest) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-30 11:13:03.213 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 11:13:03.304 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API) in 742.8743ms
+2026-04-30 11:13:03.305 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API)'
+2026-04-30 11:13:03.305 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/DeleteMasterDictionaryDetails - 200 null application/json; charset=utf-8 958.0871ms
+2026-04-30 11:14:46.832 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/DeleteMasterDictionaryDetails - application/json 75
+2026-04-30 11:14:46.848 +05:30 [INF] CORS policy execution failed.
+2026-04-30 11:14:46.848 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 11:14:46.850 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API)'
+2026-04-30 11:14:46.851 +05:30 [INF] Route matched with {action = "Delete", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope Delete(WorkVista.API.ModelLayer.Common.DeleteRequest) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-30 11:16:20.841 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 11:16:20.841 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API) in 93989.9438ms
+2026-04-30 11:16:20.841 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.Delete (WorkVista.API)'
+2026-04-30 11:16:20.841 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/DeleteMasterDictionaryDetails - 200 null application/json; charset=utf-8 94009.4885ms
+2026-04-30 17:25:43.910 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-30 17:25:44.683 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-30 17:25:44.685 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-30 17:25:44.955 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-30 17:25:44.956 +05:30 [INF] Hosting environment: Development
+2026-04-30 17:25:44.956 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-30 17:25:45.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-30 17:25:46.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 650.7444ms
+2026-04-30 17:25:46.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-30 17:25:46.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-30 17:25:46.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 8.5683ms
+2026-04-30 17:25:46.301 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.0429ms
+2026-04-30 17:25:48.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-30 17:25:48.188 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 185.743ms
+2026-04-30 17:44:08.928 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-30 17:44:09.266 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-30 17:44:09.267 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-30 17:44:09.513 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-30 17:44:09.513 +05:30 [INF] Hosting environment: Development
+2026-04-30 17:44:09.513 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-30 17:44:09.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-30 17:44:10.571 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 599.0134ms
+2026-04-30 17:44:10.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-30 17:44:10.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-30 17:44:10.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 9.103ms
+2026-04-30 17:44:10.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.5522ms
+2026-04-30 17:44:12.312 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-30 17:44:12.585 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 273.5077ms
+2026-04-30 17:44:34.590 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - application/json 72
+2026-04-30 17:44:34.621 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:44:34.621 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:44:34.850 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:44:34.929 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterActivityType.MasterActivityTypeRequestModel) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:44:36.248 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:44:36.381 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API) in 1441.5915ms
+2026-04-30 17:44:36.381 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:44:36.382 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - 200 null application/json; charset=utf-8 1791.8386ms
+2026-04-30 17:45:13.427 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - application/json 71
+2026-04-30 17:45:13.447 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:45:13.447 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:45:13.450 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:45:13.453 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterActivityType.MasterActivityTypeRequestModel) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:45:13.494 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:45:13.495 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API) in 42.0496ms
+2026-04-30 17:45:13.495 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:45:13.495 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - 200 null application/json; charset=utf-8 69.2096ms
+2026-04-30 17:45:35.764 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - application/json 75
+2026-04-30 17:45:35.768 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:45:35.773 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:45:35.785 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:45:35.785 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterActivityType.MasterActivityTypeRequestModel) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:45:35.819 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:45:35.820 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API) in 33.8268ms
+2026-04-30 17:45:35.820 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.AddOrUpdate (WorkVista.API)'
+2026-04-30 17:45:35.820 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/AddOrUpdateMasterActivityType - 200 null application/json; charset=utf-8 57.2735ms
+2026-04-30 17:46:06.717 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - application/json 65
+2026-04-30 17:46:06.726 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:46:06.726 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:46:06.726 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:46:06.735 +05:30 [INF] Route matched with {action = "Delete", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope Delete(WorkVista.API.ModelLayer.Common.DeleteRequest) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:46:06.907 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.
+2026-04-30 17:46:06.956 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:46:06.956 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API) in 220.2814ms
+2026-04-30 17:46:06.956 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:46:06.956 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - 200 null application/json; charset=utf-8 242.0599ms
+2026-04-30 17:47:11.368 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - application/json 65
+2026-04-30 17:47:11.379 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:47:11.379 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:47:11.379 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:47:11.379 +05:30 [INF] Route matched with {action = "Delete", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope Delete(WorkVista.API.ModelLayer.Common.DeleteRequest) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:47:11.451 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.
+2026-04-30 17:47:11.462 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:47:11.462 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API) in 82.5488ms
+2026-04-30 17:47:11.462 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:47:11.463 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - 200 null application/json; charset=utf-8 96.4777ms
+2026-04-30 17:52:21.873 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-30 17:52:22.073 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-30 17:52:22.073 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-30 17:52:22.161 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-30 17:52:22.162 +05:30 [INF] Hosting environment: Development
+2026-04-30 17:52:22.162 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-30 17:52:22.321 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-30 17:52:22.705 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 389.3032ms
+2026-04-30 17:52:22.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-30 17:52:22.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-30 17:52:22.738 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 8.7221ms
+2026-04-30 17:52:22.808 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.8219ms
+2026-04-30 17:52:24.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-30 17:52:24.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 287.0517ms
+2026-04-30 17:52:47.347 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - application/json 65
+2026-04-30 17:52:47.365 +05:30 [INF] CORS policy execution failed.
+2026-04-30 17:52:47.366 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-30 17:52:47.547 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:52:47.612 +05:30 [INF] Route matched with {action = "Delete", controller = "MasterActivityType"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope Delete(WorkVista.API.ModelLayer.Common.DeleteRequest) on controller WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController (WorkVista.API).
+2026-04-30 17:52:48.312 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.
+2026-04-30 17:52:48.513 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-30 17:52:48.666 +05:30 [INF] Executed action WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API) in 1044.3401ms
+2026-04-30 17:52:48.667 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterActivityType.MasterActivityTypeController.Delete (WorkVista.API)'
+2026-04-30 17:52:48.667 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterActivityType/DeleteMasterActivityType - 200 null application/json; charset=utf-8 1319.7845ms

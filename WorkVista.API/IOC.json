@@ -1,0 +1,214 @@
+[
+  // =========================
+  // WORKVISTA IOC
+  // ========================= 
+
+  // MasterDictionary Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterDictionary.IMasterDictionaryRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterDictionary.MasterDictionaryRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterDictionary Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterDictionary.IMasterDictionaryService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterDictionary.MasterDictionaryService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterShift Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterShift.IMasterShiftRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterShift.MasterShiftRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterShift Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterShift.IMasterShiftService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterShift.MasterShiftService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterEmployeeSystemInfo Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeSystemInfo.IMasterEmployeeSystemInfoRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeSystemInfo.MasterEmployeeSystemInfoRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterEmployeeSystemInfo Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeSystemInfo.IMasterEmployeeSystemInfoService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeSystemInfo.MasterEmployeeSystemInfoService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterAlert Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.IMasterAlertRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterAlert Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterAlert.IMasterAlertService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterActivityType Repository 
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityType.IMasterActivityTypeRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityType.MasterActivityTypeRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterActivityType Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityType.IMasterActivityTypeService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityType.MasterActivityTypeService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterActivityCategory Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityCategory.IMasterActivityCategoryRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityCategory.MasterActivityCategoryRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterActivityCategory Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityCategory.IMasterActivityCategoryService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityCategory.MasterActivityCategoryService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterEmployeeSession Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeSession.IMasterEmployeeSessionRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeSession.MasterEmployeeSessionRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterEmployeeSession Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeSession.IMasterEmployeeSessionService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeSession.MasterEmployeeSessionService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterApplicationLicense Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterApplicationLicense.IMasterApplicationLicenseRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterApplicationLicense.MasterApplicationLicenseRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterApplicationLicense Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterApplicationLicense.IMasterApplicationLicenseService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterApplicationLicense.MasterApplicationLicenseService, WorkVista.API.ServiceLayer"
+  },
+
+  // EmployeeShift Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.EmployeeShift.IEmployeeShiftRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.EmployeeShift.EmployeeShiftRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // EmployeeShift Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.EmployeeShift.IEmployeeShiftService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.EmployeeShift.EmployeeShiftService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterActivityLog Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityLog.IMasterActivityLogRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityLog.MasterActivityLogRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterActivityLog Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityLog.IMasterActivityLogService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityLog.MasterActivityLogService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterActivityLogSummary Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityLogSummary.IEmployeeActivityLogSummaryRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterActivityLogSummary.EmployeeActivityLogSummaryRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterActivityLogSummary Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityLogSummary.IEmployeeActivityLogSummaryService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterActivityLogSummary.EmployeeActivityLogSummaryService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterEmployeeDEX Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeDEX.IMasterEmployeeDEXRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.MasterEmployeeDEX.MasterEmployeeDEXRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterEmployeeDEX Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeDEX.IMasterEmployeeDEXService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.MasterEmployeeDEX.MasterEmployeeDEXService, WorkVista.API.ServiceLayer"
+  },
+
+  // AuditLog Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.AuditLog.IMasterAuditLogRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.AuditLog.MasterAuditLogRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // AuditLog Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.AuditLog.IMasterAuditLogService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.AuditLog.MasterAuditLogService, WorkVista.API.ServiceLayer"
+  },
+
+  // =========================
+  // AIGNITE IOC
+  // =========================
+
+  // MasterBandwidthCriteria Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.AIgnite.MasterBandwidth.IMasterBandwidthCriteriaRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.AIgnite.MasterBandwidth.MasterBandwidthCriteriaRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterBandwidthCriteria Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.AIgnite.MasterBandwidth.IMasterBandwidthCriteriaService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.AIgnite.MasterBandwidth.MasterBandwidthCriteriaService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterMenu Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.AIgnite.MasterMenu.IMasterMenuRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.AIgnite.MasterMenu.MasterMenuRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterMenu Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.AIgnite.MasterMenu.IMasterMenuService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.AIgnite.MasterMenu.MasterMenuService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterApp Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.AIgnite.MasterApp.IMasterAppRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.AIgnite.MasterApp.MasterAppRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterApp Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.AIgnite.MasterApp.IMasterAppService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.AIgnite.MasterApp.MasterAppService, WorkVista.API.ServiceLayer"
+  },
+
+  // MasterAppStep Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.AIgnite.MasterAppStep.IMasterAppStepRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.AIgnite.MasterAppStep.MasterAppStepRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // MasterAppStep Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.AIgnite.MasterAppStep.IMasterAppStepService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.AIgnite.MasterAppStep.MasterAppStepService, WorkVista.API.ServiceLayer"
+  }
+
+]

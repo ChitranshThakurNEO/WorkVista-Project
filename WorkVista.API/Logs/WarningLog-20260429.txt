@@ -1,0 +1,4 @@
+2026-04-29 17:16:28.093 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+2026-04-29 17:16:28.210 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+2026-04-29 17:18:31.945 +05:30 [ERR] Could not find stored procedure 'sp_MasterDictionary_UpsertTest'.
+2026-04-29 19:50:33.105 +05:30 [ERR] Could not find stored procedure 'sp_MasterDictionary_UpsertTest'.

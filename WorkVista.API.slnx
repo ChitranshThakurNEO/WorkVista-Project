@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="WorkVista.API.DBManager/WorkVista.API.DBManager.csproj" />
+  <Project Path="WorkVista.API.HelperLayer/WorkVista.API.HelperLayer.csproj" />
+  <Project Path="WorkVista.API.ModelLayer/WorkVista.API.ModelLayer.csproj" />
+  <Project Path="WorkVista.API.RepositoryLayer/WorkVista.API.RepositoryLayer.csproj" />
+  <Project Path="WorkVista.API.ServiceLayer/WorkVista.API.ServiceLayer.csproj" />
+  <Project Path="WorkVista.API/WorkVista.API.csproj" />
+</Solution>

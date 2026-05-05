@@ -1,0 +1,3 @@
+2026-04-30 17:46:06.907 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.
+2026-04-30 17:47:11.451 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.
+2026-04-30 17:52:48.312 +05:30 [ERR] Procedure or function 'sp_MasterActivityType_Delete' expects parameter '@CreatedBy', which was not supplied.

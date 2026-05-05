@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="11.0.0-preview.3.26207.106" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkVista.API.DBManager\WorkVista.API.DBManager.csproj" />
+    <ProjectReference Include="..\WorkVista.API.HelperLayer\WorkVista.API.HelperLayer.csproj" />
+    <ProjectReference Include="..\WorkVista.API.ModelLayer\WorkVista.API.ModelLayer.csproj" />
+  </ItemGroup>
+
+</Project>

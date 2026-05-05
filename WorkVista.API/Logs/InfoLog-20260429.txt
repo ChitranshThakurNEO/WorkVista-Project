@@ -1,0 +1,456 @@
+2026-04-29 12:09:50.263 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 12:09:50.591 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 12:09:50.592 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 12:09:50.670 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 12:09:50.670 +05:30 [INF] Hosting environment: Development
+2026-04-29 12:09:50.670 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 12:09:52.293 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger - null null
+2026-04-29 12:09:52.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger - 301 null null 198.5438ms
+2026-04-29 12:09:52.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 12:09:52.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - null null
+2026-04-29 12:09:52.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-29 12:09:52.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - null null
+2026-04-29 12:09:52.561 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 84.3168ms
+2026-04-29 12:09:52.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 12:09:52.568 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 12:09:52.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 35.8665ms
+2026-04-29 12:09:52.618 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-04-29 12:09:52.618 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-04-29 12:09:52.618 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - 200 152034 text/css 61.572ms
+2026-04-29 12:09:52.618 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 61.3285ms
+2026-04-29 12:09:52.649 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-29 12:09:52.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 92.6249ms
+2026-04-29 12:09:52.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.0069ms
+2026-04-29 12:09:54.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-29 12:09:54.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - null null
+2026-04-29 12:09:54.207 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-29 12:09:54.207 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - 200 628 image/png 32.8569ms
+2026-04-29 12:09:54.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.4599ms
+2026-04-29 12:10:00.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-29 12:10:00.847 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.9091ms
+2026-04-29 12:10:02.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/favicon.ico - null null
+2026-04-29 12:10:02.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/favicon.ico - 404 0 null 124.6178ms
+2026-04-29 12:10:02.984 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/favicon.ico, Response status code: 404
+2026-04-29 12:13:49.866 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 12:13:50.075 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 12:13:50.075 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 12:13:50.152 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 12:13:50.152 +05:30 [INF] Hosting environment: Development
+2026-04-29 12:13:50.152 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 12:13:50.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 12:13:51.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 374.1376ms
+2026-04-29 12:13:51.222 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 12:13:51.228 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 12:13:51.230 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 7.6018ms
+2026-04-29 12:13:51.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3795ms
+2026-04-29 12:13:52.918 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 12:13:53.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 404 0 null 114.2335ms
+2026-04-29 12:13:53.034 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/swagger/swagger.json, Response status code: 404
+2026-04-29 12:14:11.369 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 12:14:11.571 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 12:14:11.571 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 12:14:11.640 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 12:14:11.641 +05:30 [INF] Hosting environment: Development
+2026-04-29 12:14:11.641 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 12:14:12.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 12:14:12.224 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 179.1826ms
+2026-04-29 12:14:12.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 12:14:12.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 12:14:12.236 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.4323ms
+2026-04-29 12:14:12.270 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9336ms
+2026-04-29 12:14:13.627 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - null null
+2026-04-29 12:14:13.761 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.0821ms
+2026-04-29 12:19:36.568 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 12:19:36.749 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 12:19:36.750 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 12:19:36.813 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 12:19:36.813 +05:30 [INF] Hosting environment: Development
+2026-04-29 12:19:36.813 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 12:19:37.317 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 12:19:37.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 170.7162ms
+2026-04-29 12:19:37.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 12:19:37.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 12:19:37.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 10.2296ms
+2026-04-29 12:19:37.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.0075ms
+2026-04-29 12:19:38.881 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 12:19:39.047 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 167.1192ms
+2026-04-29 12:21:58.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 12:21:58.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 181.3469ms
+2026-04-29 13:20:12.357 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 13:20:12.919 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 13:20:12.920 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 13:20:13.195 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 13:20:13.196 +05:30 [INF] Hosting environment: Development
+2026-04-29 13:20:13.196 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 13:20:13.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 13:20:14.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 609.4738ms
+2026-04-29 13:20:14.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 13:20:14.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 13:20:14.534 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 9.2436ms
+2026-04-29 13:20:14.605 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.8856ms
+2026-04-29 13:20:16.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 13:20:16.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 248.2119ms
+2026-04-29 13:27:46.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 13:27:46.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 243.9405ms
+2026-04-29 13:43:16.768 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 13:43:17.102 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 13:43:17.103 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 13:43:17.345 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 13:43:17.346 +05:30 [INF] Hosting environment: Development
+2026-04-29 13:43:17.346 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 13:43:17.817 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 13:43:18.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 603.6867ms
+2026-04-29 13:43:18.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 13:43:18.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 13:43:18.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 15.1099ms
+2026-04-29 13:43:18.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.8255ms
+2026-04-29 13:43:20.123 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 13:43:20.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 254.7732ms
+2026-04-29 13:45:17.460 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 13:45:17.533 +05:30 [INF] CORS policy execution failed.
+2026-04-29 13:45:17.533 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 13:45:17.647 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:45:17.704 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 13:45:18.603 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 13:45:18.658 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 950.7482ms
+2026-04-29 13:45:18.658 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:45:18.658 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 1197.71ms
+2026-04-29 13:46:43.255 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 13:46:43.271 +05:30 [INF] CORS policy execution failed.
+2026-04-29 13:46:43.271 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 13:46:43.275 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:46:43.276 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 13:49:26.718 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 13:49:26.719 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 163441.8873ms
+2026-04-29 13:49:26.719 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:49:26.719 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 163466.327ms
+2026-04-29 13:49:38.820 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 13:49:38.821 +05:30 [INF] CORS policy execution failed.
+2026-04-29 13:49:38.821 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 13:49:38.823 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:49:38.823 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 13:49:40.401 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 13:49:40.401 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 1577.4617ms
+2026-04-29 13:49:40.401 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:49:40.401 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 1581.3207ms
+2026-04-29 13:50:06.816 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 13:50:06.817 +05:30 [INF] CORS policy execution failed.
+2026-04-29 13:50:06.817 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 13:50:06.817 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 13:50:06.817 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 14:52:39.736 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 14:52:39.990 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 14:52:39.990 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 14:52:40.075 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 14:52:40.075 +05:30 [INF] Hosting environment: Development
+2026-04-29 14:52:40.075 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 14:52:40.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 14:52:40.751 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 14:52:40.753 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 234.2218ms
+2026-04-29 14:52:40.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 14:52:40.762 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 9.2761ms
+2026-04-29 14:52:40.834 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.0371ms
+2026-04-29 14:52:42.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 14:52:42.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 288.5141ms
+2026-04-29 14:54:34.634 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 14:54:34.666 +05:30 [INF] CORS policy execution failed.
+2026-04-29 14:54:34.667 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 14:54:34.872 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 14:54:34.945 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 14:54:38.393 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 14:54:38.511 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 3559.3058ms
+2026-04-29 14:54:38.512 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 14:54:38.512 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 3877.9674ms
+2026-04-29 15:46:22.781 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 15:46:23.435 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 15:46:23.436 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 15:46:23.719 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 15:46:23.720 +05:30 [INF] Hosting environment: Development
+2026-04-29 15:46:23.720 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 15:46:24.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 15:46:24.923 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 550.9044ms
+2026-04-29 15:46:24.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 15:46:24.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 15:46:24.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 10.157ms
+2026-04-29 15:46:25.019 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.1101ms
+2026-04-29 15:46:26.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 15:46:26.892 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 205.995ms
+2026-04-29 15:47:43.609 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 15:47:43.639 +05:30 [INF] CORS policy execution failed.
+2026-04-29 15:47:43.640 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 15:47:43.799 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 15:47:43.856 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 15:47:46.683 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 15:47:46.815 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 2948.9558ms
+2026-04-29 15:47:46.815 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 15:47:46.816 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 3206.4182ms
+2026-04-29 15:49:59.159 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 15:49:59.461 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 15:49:59.462 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 15:49:59.701 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 15:49:59.701 +05:30 [INF] Hosting environment: Development
+2026-04-29 15:49:59.701 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 15:50:00.267 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 15:50:00.819 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 15:50:00.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 577.6659ms
+2026-04-29 15:50:00.819 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 15:50:00.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 11.6588ms
+2026-04-29 15:50:00.902 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.7682ms
+2026-04-29 15:50:02.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 15:50:02.827 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 217.3431ms
+2026-04-29 15:51:09.543 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 15:51:09.558 +05:30 [INF] CORS policy execution failed.
+2026-04-29 15:51:09.559 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 15:51:09.686 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 15:51:09.752 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 15:51:26.674 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 15:51:26.804 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 17043.4319ms
+2026-04-29 15:51:26.804 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 15:51:26.805 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 17262.0666ms
+2026-04-29 16:32:33.747 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 16:32:33.941 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 16:32:33.941 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 16:32:34.030 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 16:32:34.030 +05:30 [INF] Hosting environment: Development
+2026-04-29 16:32:34.030 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 16:32:34.245 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 16:32:34.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 186.63ms
+2026-04-29 16:32:34.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 16:32:34.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 16:32:34.438 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 4.8625ms
+2026-04-29 16:32:34.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.9996ms
+2026-04-29 16:32:35.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 16:32:35.977 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 155.951ms
+2026-04-29 16:34:37.021 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 176
+2026-04-29 16:34:37.037 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:34:37.037 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:34:37.109 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:34:37.140 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:34:52.299 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:34:52.366 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 15221.6664ms
+2026-04-29 16:34:52.367 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:34:52.367 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 15346.9105ms
+2026-04-29 16:36:17.355 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 176
+2026-04-29 16:36:17.372 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:36:17.372 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:36:17.375 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:36:17.375 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:37:56.348 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:37:59.117 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 101741.4532ms
+2026-04-29 16:37:59.117 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:37:59.117 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 101762.2747ms
+2026-04-29 16:38:13.308 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 176
+2026-04-29 16:38:13.309 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:38:13.309 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:38:13.312 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:38:13.312 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:39:35.707 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:39:35.744 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 82432.1716ms
+2026-04-29 16:39:35.745 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:39:35.747 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 82437.1152ms
+2026-04-29 16:39:38.528 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 176
+2026-04-29 16:39:38.529 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:39:38.529 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:39:38.529 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:39:38.529 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:40:29.014 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:40:29.015 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 50485.3823ms
+2026-04-29 16:40:29.015 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:40:29.015 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 50486.486ms
+2026-04-29 16:42:05.549 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 176
+2026-04-29 16:42:05.550 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:42:05.555 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:42:05.555 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:42:05.555 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:46:09.389 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:46:09.394 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 243838.0126ms
+2026-04-29 16:46:09.396 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:46:09.397 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 243847.8129ms
+2026-04-29 16:46:26.519 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 16:46:26.704 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 16:46:26.704 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 16:46:26.773 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 16:46:26.773 +05:30 [INF] Hosting environment: Development
+2026-04-29 16:46:26.773 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 16:46:27.370 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 16:46:27.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 175.2997ms
+2026-04-29 16:46:27.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 16:46:27.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 16:46:27.552 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 4.3587ms
+2026-04-29 16:46:27.587 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.2402ms
+2026-04-29 16:46:28.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 16:46:29.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 174.6122ms
+2026-04-29 16:47:32.321 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 16:47:32.343 +05:30 [INF] CORS policy execution failed.
+2026-04-29 16:47:32.343 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 16:47:32.423 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:47:32.455 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 16:47:41.508 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 16:47:41.567 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 9108.5146ms
+2026-04-29 16:47:41.567 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 16:47:41.568 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 9246.8522ms
+2026-04-29 17:05:56.934 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 17:05:57.141 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 17:05:57.142 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 17:05:57.227 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 17:05:57.227 +05:30 [INF] Hosting environment: Development
+2026-04-29 17:05:57.227 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 17:05:57.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 17:05:58.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 445.3225ms
+2026-04-29 17:05:58.235 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 17:05:58.235 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 17:05:58.241 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.0603ms
+2026-04-29 17:05:58.274 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.804ms
+2026-04-29 17:05:59.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 17:05:59.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 129.936ms
+2026-04-29 17:06:16.411 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 17:06:16.420 +05:30 [INF] CORS policy execution failed.
+2026-04-29 17:06:16.420 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 17:06:16.507 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:06:16.533 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 17:06:31.853 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 17:06:31.926 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 15387.826ms
+2026-04-29 17:06:31.927 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:06:31.927 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 15515.6869ms
+2026-04-29 17:08:25.102 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 17:08:25.290 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 17:08:25.290 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 17:08:25.355 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 17:08:25.356 +05:30 [INF] Hosting environment: Development
+2026-04-29 17:08:25.356 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 17:08:25.898 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 17:08:26.076 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 185.72ms
+2026-04-29 17:08:26.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 17:08:26.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 17:08:26.098 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 11.64ms
+2026-04-29 17:08:26.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.4863ms
+2026-04-29 17:08:27.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 17:08:27.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 157.6275ms
+2026-04-29 17:08:50.931 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 17:08:50.942 +05:30 [INF] CORS policy execution failed.
+2026-04-29 17:08:50.942 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 17:08:51.099 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:08:51.119 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 17:09:06.438 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 17:09:06.533 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 15408.7371ms
+2026-04-29 17:09:06.533 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:09:06.534 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 15602.5938ms
+2026-04-29 17:11:44.982 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 17:11:45.182 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 17:11:45.182 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 17:11:45.247 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 17:11:45.248 +05:30 [INF] Hosting environment: Development
+2026-04-29 17:11:45.248 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 17:11:45.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 17:11:46.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 188.2977ms
+2026-04-29 17:11:46.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 17:11:46.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 17:11:46.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 12.3119ms
+2026-04-29 17:11:46.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9693ms
+2026-04-29 17:11:47.423 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 17:11:47.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 123.656ms
+2026-04-29 17:16:12.724 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 17:16:12.734 +05:30 [INF] CORS policy execution failed.
+2026-04-29 17:16:12.735 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 17:16:12.892 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:16:12.921 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 17:16:28.093 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+2026-04-29 17:16:28.210 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+2026-04-29 17:16:28.227 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 17:16:28.308 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 15381.7404ms
+2026-04-29 17:16:28.308 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:16:28.308 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 15584.1345ms
+2026-04-29 17:18:16.560 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 17:18:16.773 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 17:18:16.774 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 17:18:16.849 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 17:18:16.849 +05:30 [INF] Hosting environment: Development
+2026-04-29 17:18:16.849 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 17:18:17.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 17:18:17.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 178.6036ms
+2026-04-29 17:18:17.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 17:18:17.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 17:18:17.571 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 12.734ms
+2026-04-29 17:18:17.606 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.9585ms
+2026-04-29 17:18:18.959 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 17:18:19.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 123.3909ms
+2026-04-29 17:18:31.430 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 180
+2026-04-29 17:18:31.438 +05:30 [INF] CORS policy execution failed.
+2026-04-29 17:18:31.439 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 17:18:31.519 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:18:31.551 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 17:18:31.945 +05:30 [ERR] Could not find stored procedure 'sp_MasterDictionary_UpsertTest'.
+2026-04-29 17:18:32.075 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 17:18:32.159 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 602.124ms
+2026-04-29 17:18:32.160 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 17:18:32.160 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 730.5485ms
+2026-04-29 19:48:21.929 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 19:48:22.303 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 19:48:22.303 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 19:48:22.424 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 19:48:22.424 +05:30 [INF] Hosting environment: Development
+2026-04-29 19:48:22.424 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 19:48:22.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 19:48:23.306 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 387.2793ms
+2026-04-29 19:48:23.317 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 19:48:23.317 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 19:48:23.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 8.9633ms
+2026-04-29 19:48:23.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.8372ms
+2026-04-29 19:48:24.780 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 19:48:24.948 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 167.7917ms
+2026-04-29 19:50:32.453 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 171
+2026-04-29 19:50:32.475 +05:30 [INF] CORS policy execution failed.
+2026-04-29 19:50:32.475 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 19:50:32.582 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:50:32.628 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 19:50:33.105 +05:30 [ERR] Could not find stored procedure 'sp_MasterDictionary_UpsertTest'.
+2026-04-29 19:50:33.204 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 19:50:33.262 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 628.3744ms
+2026-04-29 19:50:33.262 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:50:33.263 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 810.0323ms
+2026-04-29 19:51:02.003 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 19:51:02.194 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 19:51:02.194 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 19:51:02.263 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 19:51:02.263 +05:30 [INF] Hosting environment: Development
+2026-04-29 19:51:02.264 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 19:51:03.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 19:51:03.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 414.1284ms
+2026-04-29 19:51:03.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 19:51:03.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 19:51:03.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 4.9133ms
+2026-04-29 19:51:03.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.106ms
+2026-04-29 19:51:04.859 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 19:51:05.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 148.5826ms
+2026-04-29 19:52:29.982 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 169
+2026-04-29 19:52:29.998 +05:30 [INF] CORS policy execution failed.
+2026-04-29 19:52:29.998 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 19:52:30.064 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:52:30.096 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 19:52:30.605 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 19:52:30.675 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 575.7929ms
+2026-04-29 19:52:30.675 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:52:30.676 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 693.4838ms
+2026-04-29 19:55:39.149 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 19:55:39.348 +05:30 [INF] Now listening on: https://localhost:7162
+2026-04-29 19:55:39.348 +05:30 [INF] Now listening on: http://localhost:5013
+2026-04-29 19:55:39.421 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 19:55:39.421 +05:30 [INF] Hosting environment: Development
+2026-04-29 19:55:39.421 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-04-29 19:55:39.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-04-29 19:55:39.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 190.4ms
+2026-04-29 19:55:39.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-04-29 19:55:39.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-29 19:55:39.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.2296ms
+2026-04-29 19:55:40.015 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.1484ms
+2026-04-29 19:55:41.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-04-29 19:55:41.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 115.5213ms
+2026-04-29 19:56:12.239 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 175
+2026-04-29 19:56:12.248 +05:30 [INF] CORS policy execution failed.
+2026-04-29 19:56:12.249 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-04-29 19:56:12.324 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:56:12.348 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-04-29 19:56:12.716 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-04-29 19:56:12.789 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 436.4ms
+2026-04-29 19:56:12.790 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-04-29 19:56:12.790 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 551.2333ms

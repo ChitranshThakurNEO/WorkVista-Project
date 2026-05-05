@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.22" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkVista.API.HelperLayer\WorkVista.API.HelperLayer.csproj" />
+    <ProjectReference Include="..\WorkVista.API.ModelLayer\WorkVista.API.ModelLayer.csproj" />
+    <ProjectReference Include="..\WorkVista.API.ServiceLayer\WorkVista.API.ServiceLayer.csproj" />
+  </ItemGroup>
+
+</Project>

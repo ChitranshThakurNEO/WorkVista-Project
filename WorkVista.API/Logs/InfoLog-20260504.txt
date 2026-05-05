@@ -1,0 +1,285 @@
+2026-05-04 15:53:44.099 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 15:53:44.445 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 15:53:44.446 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 15:53:44.531 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 15:53:44.531 +05:30 [INF] Hosting environment: Development
+2026-05-04 15:53:44.531 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 15:53:45.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger - null null
+2026-05-04 15:53:45.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger - 301 null null 357.3471ms
+2026-05-04 15:53:45.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 15:53:45.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-04 15:53:45.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - null null
+2026-05-04 15:53:45.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - null null
+2026-05-04 15:53:45.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 135.6579ms
+2026-05-04 15:53:45.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 15:53:45.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 15:53:45.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 38.135ms
+2026-05-04 15:53:45.962 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-04 15:53:45.962 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-04 15:53:45.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 71.362ms
+2026-05-04 15:53:45.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui.css - 200 152034 text/css 71.3476ms
+2026-05-04 15:53:45.999 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-04 15:53:45.999 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 104.7602ms
+2026-05-04 15:53:46.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.6427ms
+2026-05-04 15:53:47.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 15:53:47.738 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 121.3087ms
+2026-05-04 16:07:48.704 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:07:49.031 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:07:49.031 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:07:49.184 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:07:49.185 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:07:49.185 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:07:49.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:07:49.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 437.2364ms
+2026-05-04 16:07:49.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:07:49.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:07:49.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.328ms
+2026-05-04 16:07:49.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.2164ms
+2026-05-04 16:07:51.502 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:07:51.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 125.9792ms
+2026-05-04 16:08:19.811 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - null null
+2026-05-04 16:08:19.962 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:08:20.013 +05:30 [INF] Route matched with {action = "GetAllByMenuId", controller = "MasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMenuId(Int32) on controller WorkVista.API.Controllers.AIgnite.MasterAppController (WorkVista.API).
+2026-05-04 16:08:20.938 +05:30 [ERR] Could not find stored procedure 'sp_MasterApp_GetAllByMenuId'.
+2026-05-04 16:08:20.962 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:08:21.029 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API) in 1012.1602ms
+2026-05-04 16:08:21.030 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:08:21.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - 200 null application/json; charset=utf-8 1219.0389ms
+2026-05-04 16:09:49.394 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:09:49.800 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:09:49.801 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:09:49.979 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:09:49.980 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:09:49.980 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:09:50.896 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:09:51.291 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 421.266ms
+2026-05-04 16:09:51.296 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:09:51.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:09:51.304 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 7.3896ms
+2026-05-04 16:09:51.341 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.6399ms
+2026-05-04 16:09:52.903 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:09:53.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 161.4083ms
+2026-05-04 16:10:52.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - null null
+2026-05-04 16:10:52.829 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:10:52.875 +05:30 [INF] Route matched with {action = "GetAllByMenuId", controller = "MasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMenuId(Int32) on controller WorkVista.API.Controllers.AIgnite.MasterAppController (WorkVista.API).
+2026-05-04 16:10:53.309 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:10:53.415 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API) in 536.2919ms
+2026-05-04 16:10:53.416 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:10:53.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - 200 null application/json; charset=utf-8 685.2591ms
+2026-05-04 16:11:08.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterMenu/AIgnite_GetAllMasterMenu - null null
+2026-05-04 16:11:08.941 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:11:08.951 +05:30 [INF] Route matched with {action = "GetAll", controller = "MasterMenu"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.MasterMenuController (WorkVista.API).
+2026-05-04 16:11:09.042 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:11:09.043 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API) in 92.2295ms
+2026-05-04 16:11:09.043 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:11:09.044 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterMenu/AIgnite_GetAllMasterMenu - 200 null application/json; charset=utf-8 113.4251ms
+2026-05-04 16:12:25.271 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:12:25.481 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:12:25.481 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:12:25.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:12:25.573 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:12:25.573 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:12:25.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:12:26.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 375.5159ms
+2026-05-04 16:12:26.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:12:26.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 7.1916ms
+2026-05-04 16:12:26.368 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:12:26.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9366ms
+2026-05-04 16:12:27.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:12:28.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 132.9984ms
+2026-05-04 16:12:43.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - null null
+2026-05-04 16:12:43.967 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:12:43.994 +05:30 [INF] Route matched with {action = "GetAllByMenuId", controller = "MasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMenuId(Int32) on controller WorkVista.API.Controllers.AIgnite.MasterAppController (WorkVista.API).
+2026-05-04 16:12:44.320 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:12:44.416 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API) in 418.2829ms
+2026-05-04 16:12:44.416 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:12:44.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=1 - 200 null application/json; charset=utf-8 526.5344ms
+2026-05-04 16:12:55.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterAppStep/AIgnite_GetAllMasterAppStepByMasterAppId?masterAppId=1 - null null
+2026-05-04 16:12:55.711 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppStepController.GetAllByMasterAppId (WorkVista.API)'
+2026-05-04 16:12:55.714 +05:30 [INF] Route matched with {action = "GetAllByMasterAppId", controller = "MasterAppStep"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMasterAppId(Int32) on controller WorkVista.API.Controllers.AIgnite.MasterAppStepController (WorkVista.API).
+2026-05-04 16:12:55.738 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:12:55.745 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterAppStepController.GetAllByMasterAppId (WorkVista.API) in 31.0397ms
+2026-05-04 16:12:55.746 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppStepController.GetAllByMasterAppId (WorkVista.API)'
+2026-05-04 16:12:55.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterAppStep/AIgnite_GetAllMasterAppStepByMasterAppId?masterAppId=1 - 200 null application/json; charset=utf-8 40.0929ms
+2026-05-04 16:13:08.981 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterBandwidthCriteria/AIgnite_GetAllBandwidthCriteria - null null
+2026-05-04 16:13:08.983 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:13:08.985 +05:30 [INF] Route matched with {action = "GetAll", controller = "MasterBandwidthCriteria"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.MasterBandwidthCriteriaController (WorkVista.API).
+2026-05-04 16:13:08.994 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:13:09.002 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterBandwidthCriteriaController.GetAll (WorkVista.API) in 16.7275ms
+2026-05-04 16:13:09.002 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:13:09.002 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterBandwidthCriteria/AIgnite_GetAllBandwidthCriteria - 200 null application/json; charset=utf-8 21.3976ms
+2026-05-04 16:13:23.033 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterMenu/AIgnite_GetAllMasterMenu - null null
+2026-05-04 16:13:23.034 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:13:23.036 +05:30 [INF] Route matched with {action = "GetAll", controller = "MasterMenu"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.MasterMenuController (WorkVista.API).
+2026-05-04 16:13:23.048 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:13:23.050 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API) in 14.1525ms
+2026-05-04 16:13:23.050 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:13:23.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterMenu/AIgnite_GetAllMasterMenu - 200 null application/json; charset=utf-8 17.8772ms
+2026-05-04 16:17:04.545 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=5 - null null
+2026-05-04 16:17:04.556 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:17:04.556 +05:30 [INF] Route matched with {action = "GetAllByMenuId", controller = "MasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMenuId(Int32) on controller WorkVista.API.Controllers.AIgnite.MasterAppController (WorkVista.API).
+2026-05-04 16:17:04.573 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:17:04.574 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API) in 18.014ms
+2026-05-04 16:17:04.574 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.MasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:17:04.574 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/MasterApp/AIgnite_GetAllMasterAppByMenuId?menuId=5 - 200 null application/json; charset=utf-8 29.754ms
+2026-05-04 16:18:33.156 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:18:33.354 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:18:33.354 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:18:33.425 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:18:33.426 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:18:33.426 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:18:33.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:18:34.137 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 380.8769ms
+2026-05-04 16:18:34.141 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:18:34.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:18:34.154 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 13.3683ms
+2026-05-04 16:18:34.188 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.1315ms
+2026-05-04 16:18:35.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:18:35.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 187.9451ms
+2026-05-04 16:27:43.816 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:27:44.029 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:27:44.030 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:27:44.106 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:27:44.107 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:27:44.107 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:27:44.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:27:45.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 388.2129ms
+2026-05-04 16:27:45.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:27:45.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:27:45.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 4.6048ms
+2026-05-04 16:27:45.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.8012ms
+2026-05-04 16:27:46.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:27:46.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 117.1129ms
+2026-05-04 16:32:27.671 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:32:27.872 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:32:27.872 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:32:27.940 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:32:27.940 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:32:27.940 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:32:28.370 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:32:28.633 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 268.8174ms
+2026-05-04 16:32:28.635 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:32:28.637 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:32:28.643 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.4ms
+2026-05-04 16:32:28.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.5772ms
+2026-05-04 16:32:30.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:32:30.270 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 128.6902ms
+2026-05-04 16:33:36.304 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterApp/GetAllMasterAppByMenuId?menuId=5 - null null
+2026-05-04 16:33:36.419 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:33:36.479 +05:30 [INF] Route matched with {action = "GetAllByMenuId", controller = "AIgniteMasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMenuId(Int32) on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController (WorkVista.API).
+2026-05-04 16:33:36.983 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:33:37.078 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAllByMenuId (WorkVista.API) in 591.3232ms
+2026-05-04 16:33:37.078 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAllByMenuId (WorkVista.API)'
+2026-05-04 16:33:37.079 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterApp/GetAllMasterAppByMenuId?menuId=5 - 200 null application/json; charset=utf-8 775.1713ms
+2026-05-04 16:33:48.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterAppStep/GetAllMasterAppStepByMasterAppId?masterAppId=1 - null null
+2026-05-04 16:33:48.097 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAllByMasterAppId (WorkVista.API)'
+2026-05-04 16:33:48.107 +05:30 [INF] Route matched with {action = "GetAllByMasterAppId", controller = "AIgniteMasterAppStep"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAllByMasterAppId(Int32) on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController (WorkVista.API).
+2026-05-04 16:33:48.117 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:33:48.120 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAllByMasterAppId (WorkVista.API) in 13.3018ms
+2026-05-04 16:33:48.120 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAllByMasterAppId (WorkVista.API)'
+2026-05-04 16:33:48.121 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterAppStep/GetAllMasterAppStepByMasterAppId?masterAppId=1 - 200 null application/json; charset=utf-8 31.4359ms
+2026-05-04 16:33:56.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterBandwidthCriteria/GetAllBandwidthCriteria - null null
+2026-05-04 16:33:56.836 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:33:56.839 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterBandwidthCriteria"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController (WorkVista.API).
+2026-05-04 16:33:56.849 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:33:56.861 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API) in 22.2484ms
+2026-05-04 16:33:56.861 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:33:56.862 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterBandwidthCriteria/GetAllBandwidthCriteria - 200 null application/json; charset=utf-8 28.9196ms
+2026-05-04 16:34:05.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterMenu/GetAllMasterMenu - null null
+2026-05-04 16:34:05.027 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:34:05.029 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterMenu"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController (WorkVista.API).
+2026-05-04 16:34:05.036 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:34:05.038 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API) in 9.1701ms
+2026-05-04 16:34:05.038 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:34:05.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterMenu/GetAllMasterMenu - 200 null application/json; charset=utf-8 12.1615ms
+2026-05-04 16:38:14.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:38:14.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 24.2238ms
+2026-05-04 16:38:14.798 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:38:14.798 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:38:14.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 3.1582ms
+2026-05-04 16:38:14.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.929ms
+2026-05-04 16:38:17.258 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:38:17.271 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAllByMenuId (WorkVista.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-04 16:38:17.275 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - null null
+2026-05-04 16:38:17.335 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-04 16:38:17.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/favicon-32x32.png - 200 628 image/png 61.0495ms
+2026-05-04 16:38:17.344 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 500 null text/plain; charset=utf-8 86.1809ms
+2026-05-04 16:39:22.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:39:22.842 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 5.2314ms
+2026-05-04 16:39:22.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:39:22.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:39:22.874 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 1.727ms
+2026-05-04 16:39:22.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.3937ms
+2026-05-04 16:39:23.509 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:39:23.516 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAllByMenuId (WorkVista.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-04 16:39:23.517 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 500 null text/plain; charset=utf-8 8.3581ms
+2026-05-04 16:39:30.953 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:39:31.151 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:39:31.151 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:39:31.229 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:39:31.229 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:39:31.229 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:39:31.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:39:31.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 291.9824ms
+2026-05-04 16:39:31.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:39:31.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:39:31.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 13.4906ms
+2026-05-04 16:39:31.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.6956ms
+2026-05-04 16:39:33.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:39:33.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 137.1569ms
+2026-05-04 16:40:00.814 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-04 16:40:01.026 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-04 16:40:01.026 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-04 16:40:01.100 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:40:01.100 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:40:01.100 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-04 16:40:01.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-04 16:40:01.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 282.7028ms
+2026-05-04 16:40:01.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-04 16:40:01.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-04 16:40:01.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.5043ms
+2026-05-04 16:40:01.737 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.287ms
+2026-05-04 16:40:03.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-04 16:40:03.290 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 133.2634ms
+2026-05-04 16:42:05.957 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterApp/GetAll?menuId=6 - null null
+2026-05-04 16:42:06.060 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAll (WorkVista.API)'
+2026-05-04 16:42:06.088 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterApp"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll(Int32) on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController (WorkVista.API).
+2026-05-04 16:42:06.392 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:42:06.476 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAll (WorkVista.API) in 383.0022ms
+2026-05-04 16:42:06.477 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppController.GetAll (WorkVista.API)'
+2026-05-04 16:42:06.477 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterApp/GetAll?menuId=6 - 200 null application/json; charset=utf-8 520.2712ms
+2026-05-04 16:42:16.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterAppStep/GetAll?masterAppId=1 - null null
+2026-05-04 16:42:16.502 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAll (WorkVista.API)'
+2026-05-04 16:42:16.513 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterAppStep"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll(Int32) on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController (WorkVista.API).
+2026-05-04 16:42:16.530 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:42:16.537 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAll (WorkVista.API) in 23.2888ms
+2026-05-04 16:42:16.537 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterAppStepController.GetAll (WorkVista.API)'
+2026-05-04 16:42:16.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterAppStep/GetAll?masterAppId=1 - 200 null application/json; charset=utf-8 44.9059ms
+2026-05-04 16:42:23.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterBandwidthCriteria/GetAll - null null
+2026-05-04 16:42:23.095 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:42:23.098 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterBandwidthCriteria"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController (WorkVista.API).
+2026-05-04 16:42:23.110 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:42:23.123 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API) in 24.7648ms
+2026-05-04 16:42:23.123 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterBandwidthCriteriaController.GetAll (WorkVista.API)'
+2026-05-04 16:42:23.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterBandwidthCriteria/GetAll - 200 null application/json; charset=utf-8 32.6709ms
+2026-05-04 16:42:29.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/AIgniteMasterMenu/GetAll - null null
+2026-05-04 16:42:29.645 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:42:29.647 +05:30 [INF] Route matched with {action = "GetAll", controller = "AIgniteMasterMenu"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetAll() on controller WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController (WorkVista.API).
+2026-05-04 16:42:29.656 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-04 16:42:29.660 +05:30 [INF] Executed action WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API) in 12.3407ms
+2026-05-04 16:42:29.660 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.AIgnite.AIgniteMasterMenuController.GetAll (WorkVista.API)'
+2026-05-04 16:42:29.660 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/AIgniteMasterMenu/GetAll - 200 null application/json; charset=utf-8 16.716ms

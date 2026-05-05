@@ -1,0 +1,199 @@
+2026-05-05 10:58:49.513 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 10:58:51.310 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-05 10:58:51.311 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-05 10:58:51.515 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 10:58:51.518 +05:30 [INF] Hosting environment: Development
+2026-05-05 10:58:51.519 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-05 10:58:53.018 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-05 10:58:53.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 383.5789ms
+2026-05-05 10:58:53.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 10:58:53.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-05 10:58:53.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 9.0938ms
+2026-05-05 10:58:53.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.1613ms
+2026-05-05 10:58:55.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-05 10:58:55.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 81.2029ms
+2026-05-05 11:35:15.374 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 11:35:15.583 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-05 11:35:15.584 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-05 11:35:15.657 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 11:35:15.657 +05:30 [INF] Hosting environment: Development
+2026-05-05 11:35:15.657 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-05 11:35:16.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-05 11:35:16.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 11:35:16.545 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 388.1394ms
+2026-05-05 11:35:16.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-05 11:35:16.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.5815ms
+2026-05-05 11:35:16.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.4074ms
+2026-05-05 11:35:18.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-05 11:35:18.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 122.5774ms
+2026-05-05 11:38:21.272 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:38:21.292 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:38:21.292 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:38:21.468 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:38:21.507 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:38:22.327 +05:30 [ERR] Could not find stored procedure 'sp_MasterAlert_Upsert'.
+2026-05-05 11:38:44.210 +05:30 [ERR] AddOrUpdateMasterAlert
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 76
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:38:44.286 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:38:44.365 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 22843.4188ms
+2026-05-05 11:38:44.365 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:38:44.365 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 23095.4778ms
+2026-05-05 11:40:41.316 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:40:41.330 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:40:41.330 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:40:41.331 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:40:41.332 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:40:41.404 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:40:41.406 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:40:41.406 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 73.4702ms
+2026-05-05 11:40:41.406 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:40:41.407 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 91.0352ms
+2026-05-05 11:40:50.568 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 11:40:50.779 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-05 11:40:50.779 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-05 11:40:50.853 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 11:40:50.854 +05:30 [INF] Hosting environment: Development
+2026-05-05 11:40:50.854 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-05 11:40:51.596 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-05 11:40:51.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 319.6995ms
+2026-05-05 11:40:51.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-05 11:40:51.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 11:40:51.945 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 5.4682ms
+2026-05-05 11:40:51.992 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1485ms
+2026-05-05 11:40:53.321 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-05 11:40:53.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 125.6646ms
+2026-05-05 11:42:11.899 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:42:11.913 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:42:11.914 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:42:12.040 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:42:12.084 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:42:12.492 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:42:12.542 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:42:12.610 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 521.4823ms
+2026-05-05 11:42:12.611 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:42:12.611 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 711.9185ms
+2026-05-05 11:43:02.129 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:43:02.142 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:43:02.143 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:43:02.145 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:43:02.146 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:44:21.822 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:44:21.824 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:44:21.825 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 79678.5149ms
+2026-05-05 11:44:21.825 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:44:21.825 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 79697.1522ms
+2026-05-05 11:46:38.678 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:46:38.686 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:46:38.686 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:46:38.689 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:46:38.690 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:49:36.876 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:49:36.882 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:49:36.884 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 178193.023ms
+2026-05-05 11:49:36.885 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:49:36.885 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 178207.8274ms
+2026-05-05 11:49:41.790 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:49:41.790 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:49:41.790 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:49:41.790 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:49:41.791 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:51:05.246 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:51:05.254 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:51:05.254 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 83463.1699ms
+2026-05-05 11:51:05.254 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:51:05.254 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 83464.4065ms
+2026-05-05 11:51:08.296 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 11:51:08.296 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:51:08.297 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:51:08.297 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:51:08.297 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 11:51:46.370 +05:30 [ERR] AddOrUpdateMasterAlert
+System.ArgumentException: Column 'Id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 85
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 11:51:46.371 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:51:46.371 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 38073.778ms
+2026-05-05 11:51:46.371 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:51:46.372 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 38076.0273ms
+2026-05-05 11:53:08.999 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - application/json 158
+2026-05-05 11:53:09.003 +05:30 [INF] CORS policy execution failed.
+2026-05-05 11:53:09.003 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 11:53:09.004 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:53:09.009 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterDictionary"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterDictionary.MasterDictionaryRequestModel) on controller WorkVista.API.Controllers.WorkVista.MasterDictionaryController (WorkVista.API).
+2026-05-05 11:54:05.438 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 11:54:05.438 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API) in 56429.1713ms
+2026-05-05 11:54:05.438 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.MasterDictionaryController.AddOrUpdate (WorkVista.API)'
+2026-05-05 11:54:05.438 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterDictionary/AddOrUpdateMasterDictionaryDetails - 200 null application/json; charset=utf-8 56442.5604ms
+2026-05-05 12:26:38.374 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 12:26:38.783 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-05 12:26:38.784 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-05 12:26:38.887 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 12:26:38.888 +05:30 [INF] Hosting environment: Development
+2026-05-05 12:26:38.888 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-05 12:26:39.238 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-05 12:26:39.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 400.1743ms
+2026-05-05 12:26:39.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 12:26:39.625 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-05 12:26:39.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 8.022ms
+2026-05-05 12:26:39.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.3471ms
+2026-05-05 12:26:41.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-05 12:26:41.164 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 115.4893ms
+2026-05-05 12:26:58.650 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 167
+2026-05-05 12:26:58.660 +05:30 [INF] CORS policy execution failed.
+2026-05-05 12:26:58.660 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 12:26:58.762 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 12:26:58.793 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 12:27:00.963 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 12:27:01.020 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 2221.102ms
+2026-05-05 12:27:01.021 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 12:27:01.021 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 2370.8291ms
+2026-05-05 12:27:29.749 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - application/json 164
+2026-05-05 12:27:29.763 +05:30 [INF] CORS policy execution failed.
+2026-05-05 12:27:29.763 +05:30 [INF] Request origin https://localhost:7162 does not have permission to access the resource.
+2026-05-05 12:27:29.765 +05:30 [INF] Executing endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 12:27:29.770 +05:30 [INF] Route matched with {action = "AddOrUpdate", controller = "MasterAlert"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope AddOrUpdate(WorkVista.API.ModelLayer.WorkVista.MasterAlert.MasterAlertRequestModel) on controller WorkVista.API.Areas.MasterAlert.MasterAlertController (WorkVista.API).
+2026-05-05 12:28:39.795 +05:30 [ERR] AddOrUpdateMasterAlert
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WorkVista.API.RepositoryLayer.WorkVista.MasterAlert.MasterAlertRepository.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.RepositoryLayer\WorkVista\MasterAlert\MasterAlertRepository.cs:line 91
+   at WorkVista.API.ServiceLayer.WorkVista.MasterAlert.MasterAlertService.AddOrUpdate(MasterAlertRequestModel request, String& errorMessage) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API.ServiceLayer\WorkVista\MasterAlert\MasterAlertService.cs:line 28
+   at WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate(MasterAlertRequestModel request) in C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API\Controllers\WorkVista\MasterAlertController.cs:line 85
+2026-05-05 12:28:39.911 +05:30 [INF] Executing ObjectResult, writing value of type 'WorkVista.API.ModelLayer.Envelope'.
+2026-05-05 12:28:39.911 +05:30 [INF] Executed action WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API) in 70139.8075ms
+2026-05-05 12:28:39.911 +05:30 [INF] Executed endpoint 'WorkVista.API.Areas.MasterAlert.MasterAlertController.AddOrUpdate (WorkVista.API)'
+2026-05-05 12:28:39.912 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7162/api/MasterAlert/AddOrUpdateMasterAlert - 200 null application/json; charset=utf-8 70164.0106ms
