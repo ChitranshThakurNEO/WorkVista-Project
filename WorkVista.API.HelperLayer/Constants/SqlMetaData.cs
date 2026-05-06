@@ -118,6 +118,10 @@
             #region ================= Master Audit Log =================
             public const string WorkVista_AddMasterAuditLog = "sp_MasterAuditLog_Add";
             #endregion
+
+            #region ================= DASHBOARD ==================
+            public const string ManagerDashboard_GetSummary = "sp_ManagerDashboard_GetSummary";
+            #endregion
         }
 
         public partial struct AIgniteStoreProcedures

@@ -159,6 +159,18 @@
     "Implementation": "WorkVista.API.ServiceLayer.WorkVista.AuditLog.MasterAuditLogService, WorkVista.API.ServiceLayer"
   },
 
+  // Dashboard Repository
+  {
+    "Interface": "WorkVista.API.RepositoryLayer.WorkVista.Dashboard.IDashboardRepository, WorkVista.API.RepositoryLayer",
+    "Implementation": "WorkVista.API.RepositoryLayer.WorkVista.Dashboard.DashboardRepository, WorkVista.API.RepositoryLayer"
+  },
+
+  // Dashboard Service
+  {
+    "Interface": "WorkVista.API.ServiceLayer.WorkVista.Dashboard.IDashboardService, WorkVista.API.ServiceLayer",
+    "Implementation": "WorkVista.API.ServiceLayer.WorkVista.Dashboard.DashboardService, WorkVista.API.ServiceLayer"
+  },
+
   // =========================
   // AIGNITE IOC
   // =========================
