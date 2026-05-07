@@ -56,11 +56,11 @@ INSERT INTO MasterEmployeeSession
 )
 VALUES
 (
-    4,
+    2,
     NULL,
-    '2026-04-07 09:00:00',
-    '2026-04-07 18:00:00',
-    '2026-04-07',
+    '2026-04-08 09:00:00',
+    '2026-04-08 18:59:24',
+    '2026-04-08',
     GETUTCDATE()
 );
 
@@ -70,40 +70,77 @@ INSERT INTO MasterActivityLog
 (
     EmployeeId,
     CategoryId,
-    SessionId,
+    LogDate,
     StartTime,
     EndTime,
     DurationSeconds,
-    Status,
-    LogDate,
+    IsActive,
+    IsDelete,
     CreatedDate
 )
 VALUES
--- Visual Studio Code (2h)
-(4, 3, 1, '2026-04-07 09:00:00', '2026-04-07 11:00:00', 7200, 'Completed', '2026-04-07', GETUTCDATE()),
 
--- Microsoft Teams (1h 30m)
-(4, 4, 1, '2026-04-07 11:00:00', '2026-04-07 12:30:00', 5400, 'Completed', '2026-04-07', GETUTCDATE()),
+-- Visual Studio Code (productive)
+(
+    3,
+    3,
+    '2026-04-08',
+    '2026-04-08 09:00:00',
+    '2026-04-08 11:30:00',
+    9000,
+    1,
+    0,
+    GETDATE()
+),
 
--- Confluence (1h 10m)
-(4, 5, 1, '2026-04-07 12:30:00', '2026-04-07 13:40:00', 4200, 'Completed', '2026-04-07', GETUTCDATE()),
+-- Microsoft Teams (productive)
+(
+    3,
+    4,
+    '2026-04-08',
+    '2026-04-08 11:45:00',
+    '2026-04-08 13:15:00',
+    5400,
+    1,
+    0,
+    GETDATE()
+),
 
--- Jira (1h)
-(4, 6, 1, '2026-04-07 13:40:00', '2026-04-07 14:40:00', 3600, 'Completed', '2026-04-07', GETUTCDATE()),
+-- Jira (productive)
+(
+    3,
+    6,
+    '2026-04-08',
+    '2026-04-08 13:30:00',
+    '2026-04-08 15:00:00',
+    5400,
+    1,
+    0,
+    GETDATE()
+),
 
--- Outlook (50m)
-(4, 7, 1, '2026-04-07 14:40:00', '2026-04-07 15:30:00', 3000, 'Completed', '2026-04-07', GETUTCDATE()),
+-- Outlook (productive)
+(
+    3,
+    7,
+    '2026-04-08',
+    '2026-04-08 15:15:00',
+    '2026-04-08 16:00:00',
+    2700,
+    1,
+    0,
+    GETDATE()
+),
 
--- Chrome Work (45m)
-(4, 9, 1, '2026-04-07 15:30:00', '2026-04-07 16:15:00', 2700, 'Completed', '2026-04-07', GETUTCDATE()),
-
--- Excel (35m)
-(4, 8, 1, '2026-04-07 16:15:00', '2026-04-07 16:50:00', 2100, 'Completed', '2026-04-07', GETUTCDATE()),
-
--- YouTube (22m)
-(4, 10, 1, '2026-04-07 16:50:00', '2026-04-07 17:12:00', 1320, 'Completed', '2026-04-07', GETUTCDATE()),
-
--- Idle
-(4, 1, 1, '2026-04-07 17:12:00', '2026-04-07 18:00:00', 2880, 'Completed', '2026-04-07', GETUTCDATE());
-
---5	2	2026-04-08	9.99	6.91	8.54	0.96	0.14	2026-04-08 09:00:00.0000000	2026-04-08 18:00:00.0000000	General	1	Weekday	Present	0	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	1	0	NULL	2026-05-07 06:05:22.5466667	NULL	NULL	NULL	NULL	NULL
+-- Excel (productive)
+(
+    3,
+    8,
+    '2026-04-08',
+    '2026-04-08 16:00:00',
+    '2026-04-08 16:39:36',
+    2376,
+    1,
+    0,
+    GETDATE()
+);
