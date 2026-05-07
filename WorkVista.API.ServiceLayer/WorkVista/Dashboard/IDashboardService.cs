@@ -18,5 +18,10 @@ namespace WorkVista.API.ServiceLayer.WorkVista.Dashboard
         string geo,
         string searchText,
         out string errorMessage);
-    }
+
+        EmployeeDayDetailsResponseModel GetEmployeeDayDetails(
+        int employeeId,
+        DateTime loggedDate,
+        out string errorMessage);
+        }
 }

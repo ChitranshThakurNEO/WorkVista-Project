@@ -60,5 +60,31 @@ namespace WorkVista.API.RepositoryLayer.WorkVista.Dashboard
 
             return dt.ToList<ManagerDashboardGridRawResponseModel>();
         }
+
+        public EmployeeDayDetailsResponseModel GetEmployeeDayDetails(int employeeId, DateTime loggedDate, out string errorMessage)
+        {
+            errorMessage = string.Empty;
+
+            var inParams = new Dictionary<string, object>
+            {
+                { "EmployeeId", employeeId },
+                { "LoggedDate", loggedDate }
+            };
+
+            var ds = _sqlDbUtilities.ExectuteStoredProcedureForMultipleTables(
+                WorkVistaStoreProcedures.WorkVista_ManagerDashboard_GetEmployeeDayDetails,
+                inParams,
+                out errorMessage);
+
+            return new EmployeeDayDetailsResponseModel
+            {
+                Summary = ds.Tables[0]
+                    .ToList<EmployeeDaySummaryResponseModel>()
+                    .FirstOrDefault(),
+
+                Applications = ds.Tables[1]
+                    .ToList<EmployeeApplicationUsageResponseModel>()
+            };
+        }
     }
 }

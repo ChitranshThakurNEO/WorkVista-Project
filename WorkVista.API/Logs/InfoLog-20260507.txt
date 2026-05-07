@@ -60,3 +60,37 @@
 2026-05-07 15:36:48.179 +05:30 [INF] Executed action WorkVista.API.Controllers.WorkVista.DashboardController.GetManagerDashboardGridData (WorkVista.API) in 157296.3167ms
 2026-05-07 15:36:48.179 +05:30 [INF] Executed endpoint 'WorkVista.API.Controllers.WorkVista.DashboardController.GetManagerDashboardGridData (WorkVista.API)'
 2026-05-07 15:36:48.180 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/api/Dashboard/GetManagerDashboardGridData?managerEmployeeId=1001&fromDate=2026-04-07&toDate=2026-05-06 - 200 null application/json; charset=utf-8 157529.8951ms
+2026-05-07 18:32:53.767 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 18:32:54.209 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-07 18:32:54.210 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-07 18:32:54.383 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 18:32:54.384 +05:30 [INF] Hosting environment: Development
+2026-05-07 18:32:54.384 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-07 18:32:55.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-07 18:32:55.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 365.6536ms
+2026-05-07 18:32:55.460 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-07 18:32:55.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-07 18:32:55.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 6.3373ms
+2026-05-07 18:32:55.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.6997ms
+2026-05-07 18:32:57.649 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-07 18:32:57.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 106.2613ms
+2026-05-07 18:33:10.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/Dashboard/GetEmployeeDayDetails?employeeId=4&loggedDate=2026-04-07 - null null
+2026-05-07 18:33:10.569 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.DashboardController.GetEmployeeDayDetails (WorkVista.API)'
+2026-05-07 18:33:10.612 +05:30 [INF] Route matched with {action = "GetEmployeeDayDetails", controller = "Dashboard"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetEmployeeDayDetails(Int32, System.DateTime) on controller WorkVista.API.Controllers.WorkVista.DashboardController (WorkVista.API).
+2026-05-07 18:39:51.489 +05:30 [INF] User profile is available. Using 'C:\Users\Client\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 18:39:51.672 +05:30 [INF] Now listening on: https://localhost:7162
+2026-05-07 18:39:51.673 +05:30 [INF] Now listening on: http://localhost:5013
+2026-05-07 18:39:51.741 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 18:39:51.741 +05:30 [INF] Hosting environment: Development
+2026-05-07 18:39:51.741 +05:30 [INF] Content root path: C:\Users\Client\Documents\Sagility\WorkVista Live Project\API Project\WorkVista.API\WorkVista.API
+2026-05-07 18:39:52.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/index.html - null null
+2026-05-07 18:39:52.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/index.html - 200 null text/html;charset=utf-8 169.1116ms
+2026-05-07 18:39:52.178 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-07 18:39:52.178 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/_vs/browserLink - null null
+2026-05-07 18:39:52.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_framework/aspnetcore-browser-refresh.js - 200 14931 application/javascript; charset=utf-8 12.3286ms
+2026-05-07 18:39:52.222 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2574ms
+2026-05-07 18:39:53.531 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/swagger/swagger.json - null null
+2026-05-07 18:39:53.722 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7162/swagger/swagger.json - 200 null application/json;charset=utf-8 191.8067ms
+2026-05-07 18:40:13.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7162/api/Dashboard/GetEmployeeDayDetails?employeeId=4&loggedDate=2026-04-07 - null null
+2026-05-07 18:40:13.150 +05:30 [INF] Executing endpoint 'WorkVista.API.Controllers.WorkVista.DashboardController.GetEmployeeDayDetails (WorkVista.API)'
+2026-05-07 18:40:13.178 +05:30 [INF] Route matched with {action = "GetEmployeeDayDetails", controller = "Dashboard"}. Executing controller action with signature WorkVista.API.ModelLayer.Envelope GetEmployeeDayDetails(Int32, System.DateTime) on controller WorkVista.API.Controllers.WorkVista.DashboardController (WorkVista.API).

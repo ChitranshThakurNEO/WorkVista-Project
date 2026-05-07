@@ -92,5 +92,36 @@ namespace WorkVista.API.Controllers.WorkVista
                 return new Envelope(false, null, "Something went wrong", 0);
             }
         }
+
+        [HttpGet]
+        [Route("GetEmployeeDayDetails")]
+        public Envelope GetEmployeeDayDetails(int employeeId, DateTime loggedDate)
+        {
+            try
+            {
+                var data = _service.GetEmployeeDayDetails(
+                    employeeId,
+                    loggedDate,
+                    out string errorMessage);
+
+                if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    return new Envelope(false, null, errorMessage, 0);
+                }
+
+                return new Envelope(
+                    true,
+                    JsEncryption.EncryptStringAESToModel(
+                        data,
+                        _settings.JSEncryptionKey),
+                    "Success",
+                    1);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "GetEmployeeDayDetails");
+                return new Envelope(false, null, "Something went wrong", 0);
+            }
+        }
     }
 }

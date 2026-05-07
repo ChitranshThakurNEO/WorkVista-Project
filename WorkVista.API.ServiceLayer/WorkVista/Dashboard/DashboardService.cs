@@ -87,5 +87,13 @@ namespace WorkVista.API.ServiceLayer.WorkVista.Dashboard
                 })
                 .ToList();
         }
+
+        public EmployeeDayDetailsResponseModel GetEmployeeDayDetails(int employeeId, DateTime loggedDate, out string errorMessage)
+        {
+            return _repository.GetEmployeeDayDetails(
+                employeeId,
+                loggedDate,
+                out errorMessage);
+        }
     }
 }

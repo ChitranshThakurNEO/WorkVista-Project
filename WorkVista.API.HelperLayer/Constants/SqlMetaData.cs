@@ -122,6 +122,7 @@
             #region ================= DASHBOARD ==================
             public const string ManagerDashboard_GetSummary = "sp_ManagerDashboard_GetSummary";
             public const string ManagerDashboard_GetGridData = "sp_ManagerDashboard_GetGridData";
+            public const string WorkVista_ManagerDashboard_GetEmployeeDayDetails = "sp_ManagerDashboard_GetEmployeeDayDetails";
             #endregion
         }
 
