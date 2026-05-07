@@ -37,5 +37,28 @@ namespace WorkVista.API.RepositoryLayer.WorkVista.Dashboard
             return dt.ToList<ManagerDashboardSummaryResponseModel>()
                      .FirstOrDefault();
         }
+
+        public List<ManagerDashboardGridRawResponseModel> GetGridData(string managerEmployeeId, DateTime fromDate, DateTime toDate, string teamLeadEmployeeId, string geo, string searchText, out string errorMessage)
+        {
+            errorMessage = string.Empty;
+
+            var inParams = new Dictionary<string, object>
+            {
+                { "ManagerEmployeeId", managerEmployeeId },
+                { "FromDate", fromDate },
+                { "ToDate", toDate },
+                { "TeamLeadEmployeeId", string.IsNullOrWhiteSpace(teamLeadEmployeeId) ? DBNull.Value : teamLeadEmployeeId },
+                { "Geo", string.IsNullOrWhiteSpace(geo) ? DBNull.Value : geo },
+                { "SearchText", string.IsNullOrWhiteSpace(searchText) ? DBNull.Value : searchText }
+            };
+
+            var dt = _sqlDbUtilities.ExectuteStoredProcedure(
+                WorkVistaStoreProcedures.ManagerDashboard_GetGridData,
+                inParams,
+                out errorMessage
+            );
+
+            return dt.ToList<ManagerDashboardGridRawResponseModel>();
+        }
     }
 }

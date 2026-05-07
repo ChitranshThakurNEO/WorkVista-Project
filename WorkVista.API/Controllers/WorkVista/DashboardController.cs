@@ -58,5 +58,39 @@ namespace WorkVista.API.Controllers.WorkVista
                 return new Envelope(false, null, "Something went wrong", 0);
             }
         }
+
+        [HttpGet]
+        [Route("GetManagerDashboardGridData")]
+        public Envelope GetManagerDashboardGridData(string managerEmployeeId, DateTime fromDate, DateTime toDate, string teamLeadEmployeeId = null, string geo = null, string searchText = null)
+        {
+            try
+            {
+                var data = _service.GetGridData(
+                    managerEmployeeId,
+                    fromDate,
+                    toDate,
+                    teamLeadEmployeeId,
+                    geo,
+                    searchText,
+                    out string errorMessage);
+
+                if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    return new Envelope(false, null, errorMessage, 0);
+                }
+
+                return new Envelope(
+                    true,
+                    JsEncryption.EncryptStringAESToModel(data, _settings.JSEncryptionKey),
+                    "Success",
+                    1
+                );
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "GetManagerDashboardGridData");
+                return new Envelope(false, null, "Something went wrong", 0);
+            }
+        }
     }
 }

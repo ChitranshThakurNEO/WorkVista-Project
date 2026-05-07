@@ -9,5 +9,14 @@ namespace WorkVista.API.ServiceLayer.WorkVista.Dashboard
         DateTime fromDate,
         DateTime toDate,
         out string errorMessage);
+
+        List<ManagerDashboardEmployeeGridResponseModel> GetGridData(
+        string managerEmployeeId,
+        DateTime fromDate,
+        DateTime toDate,
+        string teamLeadEmployeeId,
+        string geo,
+        string searchText,
+        out string errorMessage);
     }
 }
