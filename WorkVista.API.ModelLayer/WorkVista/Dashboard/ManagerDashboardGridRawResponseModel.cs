@@ -2,13 +2,14 @@
 {
     public class ManagerDashboardGridRawResponseModel
     {
-        public int MasterEmployeeId { get; set; }
-        public string FullName { get; set; }
+        public int EmployeeId { get; set; }
+        public string EmployeeCode { get; set; }
+        public string EmployeeName { get; set; }
         public string DESIGNATION { get; set; }
         public string GEO { get; set; }
         public DateTime LoggedDate { get; set; }
-        public decimal TOT_ACTIVEHOURS { get; set; }
-        public string AttendanceStatus { get; set; }
-        public string DayType { get; set; }
+        public string DisplayValue { get; set; }
+        public int TotalMinutes { get; set; }
+        public int AvgMinutesPerDay { get; set; }
     }
 }

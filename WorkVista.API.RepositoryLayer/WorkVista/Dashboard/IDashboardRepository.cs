@@ -10,7 +10,7 @@ namespace WorkVista.API.RepositoryLayer.WorkVista.Dashboard
             DateTime toDate,
             out string errorMessage);
 
-        List<ManagerDashboardGridRawResponseModel> GetGridData(
+        ManagerDashboardGridResponseModel GetGridData(
         string managerEmployeeId,
         DateTime fromDate,
         DateTime toDate,

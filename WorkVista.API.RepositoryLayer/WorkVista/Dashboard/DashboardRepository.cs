@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using WorkVista.API.DBManager.SQLHelper;
+using WorkVista.API.HelperLayer.Constants;
 using WorkVista.API.HelperLayer.Extensions;
 using WorkVista.API.ModelLayer.AppSettings;
 using WorkVista.API.ModelLayer.WorkVista.Dashboard;
@@ -38,7 +39,7 @@ namespace WorkVista.API.RepositoryLayer.WorkVista.Dashboard
                      .FirstOrDefault();
         }
 
-        public List<ManagerDashboardGridRawResponseModel> GetGridData(string managerEmployeeId, DateTime fromDate, DateTime toDate, string teamLeadEmployeeId, string geo, string searchText, out string errorMessage)
+        public ManagerDashboardGridResponseModel GetGridData(string managerEmployeeId, DateTime fromDate, DateTime toDate, string teamLeadEmployeeId, string geo, string searchText,out string errorMessage)
         {
             errorMessage = string.Empty;
 
@@ -47,18 +48,60 @@ namespace WorkVista.API.RepositoryLayer.WorkVista.Dashboard
                 { "ManagerEmployeeId", managerEmployeeId },
                 { "FromDate", fromDate },
                 { "ToDate", toDate },
-                { "TeamLeadEmployeeId", string.IsNullOrWhiteSpace(teamLeadEmployeeId) ? DBNull.Value : teamLeadEmployeeId },
-                { "Geo", string.IsNullOrWhiteSpace(geo) ? DBNull.Value : geo },
-                { "SearchText", string.IsNullOrWhiteSpace(searchText) ? DBNull.Value : searchText }
+                { "TeamLeadEmployeeId", string.IsNullOrWhiteSpace(teamLeadEmployeeId) ? (object)DBNull.Value : teamLeadEmployeeId },
+                { "Geo", string.IsNullOrWhiteSpace(geo) ? (object)DBNull.Value : geo },
+                { "SearchText", string.IsNullOrWhiteSpace(searchText) ? (object)DBNull.Value : searchText }
             };
 
-            var dt = _sqlDbUtilities.ExectuteStoredProcedure(
+            var ds = _sqlDbUtilities.ExectuteStoredProcedureForMultipleTables(
                 WorkVistaStoreProcedures.ManagerDashboard_GetGridData,
                 inParams,
-                out errorMessage
+                out errorMessage);
+
+            if (!string.IsNullOrEmpty(errorMessage) || ds == null || ds.Tables.Count < 2)
+            {
+                return new ManagerDashboardGridResponseModel();
+            }
+
+            var employeeRawData = ds.Tables[0].ToList<ManagerDashboardGridRawResponseModel>();
+            var teamAverageRawData = ds.Tables[1].ToList<TeamAverageRawResponseModel>();
+
+            var employees = employeeRawData
+                .GroupBy(x => new
+                {
+                    x.EmployeeId,
+                    x.EmployeeName,
+                    x.DESIGNATION,
+                    x.GEO,
+                    x.TotalMinutes,
+                    x.AvgMinutesPerDay
+                })
+                .Select(group => new ManagerDashboardEmployeeGridResponseModel
+                {
+                    EmployeeId = group.Key.EmployeeId,
+                    EmployeeName = group.Key.EmployeeName,
+                    Designation = group.Key.DESIGNATION,
+                    Geo = group.Key.GEO,
+                    Total = FormatDateExtensions.MinutesToHHMM(group.Key.TotalMinutes),
+                    AveragePerDay = FormatDateExtensions.MinutesToHHMM(group.Key.AvgMinutesPerDay),
+
+                    Dates = group.ToDictionary(
+                        x => x.LoggedDate.ToString(DashboardConstants.DateFormats.GridDateFormat),
+                        x => x.DisplayValue
+                    )
+                })
+                .ToList();
+
+            var teamAverage = teamAverageRawData.ToDictionary(
+                x => x.LoggedDate.ToString(DashboardConstants.DateFormats.GridDateFormat),
+                x => x.TeamAverageDisplay
             );
 
-            return dt.ToList<ManagerDashboardGridRawResponseModel>();
+            return new ManagerDashboardGridResponseModel
+            {
+                Employees = employees,
+                TeamAverage = teamAverage
+            };
         }
 
         public EmployeeDayDetailsResponseModel GetEmployeeDayDetails(int employeeId, DateTime loggedDate, out string errorMessage)
