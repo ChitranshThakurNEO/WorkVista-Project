@@ -7,6 +7,15 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
+	DECLARE @TotalLoggedHours DECIMAL(10,2) = 0;
+
+	SELECT
+        @TotalLoggedHours = TOT_LOGGEDHOURS
+    FROM EmployeeActivityLogSummary
+    WHERE EmployeeId = @EmployeeId
+      AND LoggedDate = @LoggedDate
+      AND IsDelete = 0;
+
     ---------------------------------------------------
     -- RESULT SET 1 : SUMMARY
     ---------------------------------------------------
@@ -54,6 +63,7 @@ BEGIN
         CASE
             WHEN MAC.IsProductive = 1 THEN 'Productive'
             WHEN MAC.IsNonProductive = 1 THEN 'Non-Productive'
+			WHEN MAC.IsNoImpact = 1 AND (MAC.SubCategoryName in ('Idle', 'Locked')) THEN 'Idle'
             ELSE 'Neutral'
         END AS ProductivityType,
 
@@ -70,7 +80,61 @@ BEGIN
         MAC.ProcessName,
         MAC.IsProductive,
         MAC.IsNonProductive,
+		MAC.IsNoImpact,
         MAC.ColorHex
     --ORDER BY SUM(MAL.DurationSeconds) DESC;
+
+
+    ---------------------------------------------------
+-- RESULT SET 3 : CATEGORY PERCENTAGES
+---------------------------------------------------
+SELECT
+    ROUND(
+        SUM(
+            CASE
+                WHEN MAC.IsProductive = 1
+                THEN MAL.DurationSeconds
+                ELSE 0
+            END
+        ) / 3600.0 * 100 / NULLIF(@TotalLoggedHours, 0)
+    , 2) AS ProductivePercentage,
+
+    ROUND(
+        SUM(
+            CASE
+                WHEN MAC.IsNonProductive = 1
+                THEN MAL.DurationSeconds
+                ELSE 0
+            END
+        ) / 3600.0 * 100 / NULLIF(@TotalLoggedHours, 0)
+    , 2) AS NonProductivePercentage,
+
+    ROUND(
+        SUM(
+            CASE
+                WHEN MAC.IsNoImpact = 1
+                     AND MAC.SubCategoryName NOT IN ('Idle', 'Locked')
+                THEN MAL.DurationSeconds
+                ELSE 0
+            END
+        ) / 3600.0 * 100 / NULLIF(@TotalLoggedHours, 0)
+    , 2) AS NeutralPercentage,
+
+    ROUND(
+        SUM(
+            CASE
+                WHEN MAC.SubCategoryName IN ('Idle', 'Locked')
+                THEN MAL.DurationSeconds
+                ELSE 0
+            END
+        ) / 3600.0 * 100 / NULLIF(@TotalLoggedHours, 0)
+    , 2) AS IdlePercentage
+
+FROM MasterActivityLog MAL
+INNER JOIN MasterActivityCategory MAC
+    ON MAL.CategoryId = MAC.MasterActivityCategoryId
+WHERE MAL.EmployeeId = @EmployeeId
+  AND MAL.LogDate = @LoggedDate
+  AND MAL.IsDelete = 0;
 END;
 GO
