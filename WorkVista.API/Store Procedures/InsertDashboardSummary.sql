@@ -134,6 +134,11 @@ VALUES
 );
 
 
+--1.) TOT_LOGGEDHOURS = 9.00 i.e. TOT_LOGGEDHOURS is total hours logged includes Productive + Non Productive + Idle + Neutral
+--2.) TOT_ACTIVEHOURS = 8.20 i.e. TOT_ACTIVEHOURS is total hours logged includes Productive + Non Productive + Neutral
+--3.) TOT_TIMEONSYSTEM = 8.20 i.e. Same as TOT_ACTIVEHOURS
+--4.) TOT_TIMEAWAYFROMSYSTEM = 0.80 i.e. TOT_TIMEAWAYFROMSYSTEM is total hours logged includes Idle only
+--5.) TOT_IDLETIME = 0.80 i.e. Same as TOT_TIMEAWAYFROMSYSTEM
 DECLARE @StartDate DATE = '2026-04-07';
 DECLARE @EndDate DATE = '2026-05-06';
 
